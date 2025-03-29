@@ -40,14 +40,12 @@ body {
 /* 上の部分は気にせずここから書く */
 /*https://chot.design/html-css-beginner/a8980b3b8e97/*/
 .box {
-  margin       : auto;
+  margin-left       : 35%;
   width        : 500px;
   height       : 500px;
   border: 1px solid black;
   border-collapse: collapse; 
-  position: relative;
-  top: 10px;
-  left: -40px;
+  position: absolute;
 }
 
 .redbox {
@@ -60,11 +58,10 @@ body {
 }
 
 .bluebox {
-  margin: auto;
   width : 160px;
   height: 70px;
   position: relative;
   top: 100px;
-  left: -170px;
+  left: 0;
   background-color: blue;
 }
